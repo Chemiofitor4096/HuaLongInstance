@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "hualong:block/golden_potatoes_stage1",
+    "particle": "hualong:block/golden_potatoes_stage1"
+  },
+  "render_type": "cutout"
+}

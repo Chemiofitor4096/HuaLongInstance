@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 0.35,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:GoldenPotato"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedGoldenPotato"
+    },
+    "name": "golden_potato_smoking",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "experience": 0.35,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "hualong:golden_potato"
+  },
+  "result": {
+    "id": "hualong:cooked_golden_potato"
+  }
+}

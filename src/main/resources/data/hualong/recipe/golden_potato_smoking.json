@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 0.35,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "hualong:golden_potato"
+  },
+  "result": {
+    "id": "hualong:cooked_golden_potato"
+  }
+}

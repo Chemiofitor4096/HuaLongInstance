@@ -1,0 +1,330 @@
+{
+  "mod_elements": [
+    {
+      "name": "GoldenPotato",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_potato",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hualong/item/GoldenPotatoItem.java",
+          "src/main/resources/assets/hualong/models/item/golden_potato.json"
+        ]
+      },
+      "path": "~/Crop"
+    },
+    {
+      "name": "CookedGoldenPotato",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_golden_potato",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hualong/models/item/cooked_golden_potato.json",
+          "src/main/java/net/mcreator/hualong/item/CookedGoldenPotatoItem.java"
+        ]
+      },
+      "path": "~/Crop"
+    },
+    {
+      "name": "GoldenPotatoBlock0",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_potato_block_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hualong/loot_table/blocks/golden_potato_block_0.json",
+          "src/main/resources/assets/hualong/models/block/golden_potato_block_0.json",
+          "src/main/resources/assets/hualong/models/item/golden_potato_block_0.json",
+          "src/main/java/net/mcreator/hualong/block/GoldenPotatoBlock0Block.java",
+          "src/main/resources/assets/hualong/blockstates/golden_potato_block_0.json"
+        ]
+      },
+      "path": "~/Crop"
+    },
+    {
+      "name": "GoldenPotatoBlock1",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_potato_block_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hualong/models/block/golden_potato_block_1.json",
+          "src/main/resources/data/hualong/loot_table/blocks/golden_potato_block_1.json",
+          "src/main/resources/assets/hualong/blockstates/golden_potato_block_1.json",
+          "src/main/java/net/mcreator/hualong/block/GoldenPotatoBlock1Block.java",
+          "src/main/resources/assets/hualong/models/item/golden_potato_block_1.json"
+        ]
+      },
+      "path": "~/Crop"
+    },
+    {
+      "name": "GoldenPotatoBlock2",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_potato_block_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hualong/loot_table/blocks/golden_potato_block_2.json",
+          "src/main/resources/assets/hualong/blockstates/golden_potato_block_2.json",
+          "src/main/resources/assets/hualong/models/block/golden_potato_block_2.json",
+          "src/main/resources/assets/hualong/models/item/golden_potato_block_2.json",
+          "src/main/java/net/mcreator/hualong/block/GoldenPotatoBlock2Block.java"
+        ]
+      },
+      "path": "~/Crop"
+    },
+    {
+      "name": "GoldenPotatoBlock3",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_potato_block_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hualong/block/GoldenPotatoBlock3Block.java",
+          "src/main/resources/assets/hualong/models/block/golden_potato_block_3.json",
+          "src/main/resources/assets/hualong/blockstates/golden_potato_block_3.json",
+          "src/main/resources/assets/hualong/models/item/golden_potato_block_3.json"
+        ]
+      },
+      "path": "~/Crop"
+    },
+    {
+      "name": "GoldenPotatoDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_potato_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hualong/loot_table/blocks/golden_potato_block_3.json"
+        ]
+      },
+      "path": "~/Crop"
+    },
+    {
+      "name": "GoldenPotatoCooking",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_potato_cooking",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hualong/recipe/golden_potato_cooking.json"
+        ]
+      },
+      "path": "~/Crop"
+    },
+    {
+      "name": "GoldenPotatoSmoking",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_potato_smoking",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hualong/recipe/golden_potato_smoking.json"
+        ]
+      },
+      "path": "~/Crop"
+    },
+    {
+      "name": "HuaLongInstance",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hua_long_instance",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GoldenPotatoPlanting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_potato_planting",
+      "metadata": {
+        "return_type": "actionresulttype",
+        "files": [
+          "src/main/java/net/mcreator/hualong/procedures/GoldenPotatoPlantingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Crop"
+    },
+    {
+      "name": "GoldenPotatoGrowing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_potato_growing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hualong/procedures/GoldenPotatoGrowingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Crop"
+    },
+    {
+      "name": "GoldenPotatoTrading",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_potato_trading",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Crop"
+    },
+    {
+      "name": "GoldenPotatoComposting",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_potato_composting",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Crop"
+    },
+    {
+      "name": "GoldenPotatoHarvesting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_potato_harvesting",
+      "metadata": {
+        "return_type": "actionresulttype",
+        "files": [
+          "src/main/java/net/mcreator/hualong/procedures/GoldenPotatoHarvestingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Crop"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.hualong.golden_potato_block_2": "Golden Potato",
+      "block.hualong.golden_potato_block_1": "Golden Potato",
+      "block.hualong.golden_potato_block_0": "Golden Potato",
+      "item.hualong.cooked_golden_potato": "Cooked Golden Potato",
+      "item.hualong.golden_potato": "Golden Potato",
+      "item_group.hualong.hua_long_instance": "Instance 100%",
+      "block.hualong.golden_potato_block_3": "Golden Potato"
+    },
+    "zh_cn": {
+      "block.hualong.golden_potato_block_2": "黄金马铃薯",
+      "block.hualong.golden_potato_block_1": "黄金马铃薯",
+      "block.hualong.golden_potato_block_0": "黄金马铃薯",
+      "item.hualong.cooked_golden_potato": "烤黄金马铃薯",
+      "item.hualong.golden_potato": "黄金马铃薯",
+      "item_group.hualong.hua_long_instance": "实例100%",
+      "block.hualong.golden_potato_block_3": "黄金马铃薯"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Crop",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "hualong",
+    "modName": "HuaLong",
+    "version": "1.0.0",
+    "description": "Instance 100%",
+    "author": "HuaLong",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.hualong"
+  },
+  "mcreatorVersion": 202400452410
+}

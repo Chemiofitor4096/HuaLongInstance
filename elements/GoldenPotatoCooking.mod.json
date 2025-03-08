@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 0.35,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:GoldenPotato"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CookedGoldenPotato"
+    },
+    "name": "golden_potato_cooking",
+    "namespace": "mod"
+  }
+}
